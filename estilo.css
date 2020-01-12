@@ -79,7 +79,7 @@ body{
 .portafolio{
     width: 90%;
     max-width: 1400px;
-    margin: auto;
+    margin-top: 17%;
 }
 
 .portafolio h1{
@@ -105,7 +105,7 @@ body{
     bottom: 0;
     padding: 50px;
 
-    background: rgba(19, 28, 59, 0.342);
+    background: rgb(0, 1, 5);
     color: #fff;
 
     transform: translateY(100%);
@@ -135,7 +135,7 @@ p.parrafo1{
 }
 
 h1.h1{
-    text-align: center;
+    margin-top:35%;
     font-style: italic;
     font-family: 'Fira Sans', sans-serif;
 }
