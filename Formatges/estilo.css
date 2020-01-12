@@ -22,8 +22,10 @@ font-style: italic;
 }
 
 .logo{ 
-    width: 350px;
-    height:200px;
+     width: 180px;
+    height:150px;
+    margin-left: 250px;
+    
 }
 
 .menu-icon{
@@ -140,63 +142,10 @@ h1.h1{
     font-family: 'Fira Sans', sans-serif;
 }
 
-.slider {
-    width: 95%;
-    margin: auto;
-    overflow: hidden;
-}
-
-.slider ul {
-    display: flex;
-    padding: 0;
-    width: 400%;
-
-    animation: cambio 20s infinite;
-    animation-direction: alternate;
-    
-}
-
-.slider li {
-    width: 100%;
-    list-style: none;
-
-}
-
-.slider img {
-    width: 55%;
-    margin-top: 15%;
-}
-
-@keyframes cambio{
-    0% {margin-left: 0; }
-    20% {margin-left: 0; }
-
-    25% {margin-left: -100%;}
-    45% {margin-left: -100%;}
-
-    50% {margin-left: -200%;}
-    70% {margin-left: -200%;}
-
-    75% {margin-left: -300%;}
-    80% {margin-left: -300%;}
-    
-}
 table.th.td{
     width: 100%;
+    
 }
-
-p.presentacion {
-    text-align: justify;
-    margin-top: 1%;
-    text-indent: 25px;
-    margin-left: 25px;
-    margin-right: 35px;
-}
-
-iframe.contact {
-      margin-right: 60px;
-}
-
 
 /*Aqui termina el Main*/
 
