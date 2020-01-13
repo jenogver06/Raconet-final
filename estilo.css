@@ -2,7 +2,7 @@
 .header{
     background: #333;
     color:white;
-    padding:0rem 0;
+    padding:1rem 0;
     position:fixed;
     left: 0;
     top:0;
@@ -23,10 +23,38 @@ font-style: italic;
     text-align:left;
 }
 
-.logo{ 
-    width: 350px;
+.logo{
+    width: 300px;
     height:200px;
 }
+
+.logo1{
+    float: left;
+    width: 350px;
+    height: 190px;
+    margin-left: 100px;
+}
+
+.logo2{
+    width: 200px;
+    height:200px;
+    margin-right: 1050px;
+}
+
+.logo3 {
+        margin-top: -500px;
+        width: 200px;
+        height:200px;
+        margin-left:50px;
+        }
+
+        
+.logo4 {
+    margin-top: -500px;
+    width: 200px;
+    height:200px;
+    margin-left:600px;
+    }
 
 .menu-icon{
     display:none;
@@ -172,7 +200,7 @@ h1.h1{
 }
 
 .slider li {
-    width: 100%;
+    width: 5%;
     list-style: none;
 
 }
@@ -182,8 +210,8 @@ h1.h1{
 }
 
 @keyframes cambio{
-    0% {margin-left: 0; }
-    20% {margin-left: 0; }
+    0% {margin-left: -0%; }
+    20% {margin-left: -0%; }
 
     25% {margin-left: -100%;}
     45% {margin-left: -100%;}
@@ -197,45 +225,36 @@ h1.h1{
     85% {margin-left: -400%;}
     100% {margin-left: -400%;}
 }
-table.th.td{
-    width: 100%;
-}
-
 p.presentacion {
     text-align: center;
+    font-family:'Baskervville', serif;
     margin-top: 1%;
     text-indent: 25px;
-    margin-left: 25px;
-    margin-right: 35px;
+    margin-left: 45px;
+    margin-right: 54px;
 }
-
 
 iframe.contact {
       margin-right: 60px;
 }
 
 
-
+img.imagenindex{float:right;
+    width:600px;
+    height:450px;
+    weight:100px;
+    margin-left: 50px;;
+}
 
 
 /*Aqui termina el Main*/
 
 /*Aqui empieza el Footer*/
 
-
-
-#Wapps{
-    width: 450px;
-    float: right;
-}
-
-#dinahosting{
-    width: 450px;
-    float: left;
-}
 img.imagenindex{float:right;
-height:600px;
-weight:50px;
+    width:600px;
+    height:450px;
+    weight:100px;
 }
 footer{
     background-color:#333;
@@ -243,4 +262,8 @@ footer{
     background-image: url(img/madera.jpg);
    }
    footer ul{list-style:none;
+}
+
+class.logo {
+    width:150px;
 }
